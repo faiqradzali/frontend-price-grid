@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Single Price Grid Component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        body {
+            background-color: hsl(204, 43%, 93%);
+            font-family: 'Karla', sans-serif;
+        }
+        
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+        
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+        
+        .card {
+            margin: auto;
+            margin-top: 10%;
+            max-width: 700px;
+        }
+        /* .container {
+            
+        } */
+        
+        .main-container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px 10px 0 0;
+        }
+        
+        .flex-container {
+            display: flex;
+            flex-direction: row;
+            margin: 0px;
+        }
+        
+        .flex-item-left {
+            color: white;
+            background-color: hsl(179, 62%, 43%);
+            padding: 30px;
+            flex: 50%;
+            border-radius: 0 0 0 10px;
+        }
+        
+        .flex-item-right {
+            color: white;
+            background-color: hsl(179, 33%, 53%);
+            padding: 30px;
+            flex: 50%;
+            border-radius: 0 0 10px 0;
+        }
+        /* Responsive layout - makes a one column-layout instead of two-column layout */
+        
+        @media (max-width: 800px) {
+            .flex-container {
+                flex-direction: column;
+            }
+            .flex-item-left {
+                border-radius: 0 0 0 0;
+            }
+            .flex-item-right {
+                border-radius: 0 0 10px 10px;
+            }
+        }
+        
+        button {
+            background-color: hsl(71, 73%, 54%);
+            border-radius: 10px;
+            border-style: none;
+            transition: 0.3s;
+            margin-top: 20px;
+            width: 100%;
+            color: white;
+            font-size: 16px;
+            padding: 15px;
+            font-weight: 700;
+        }
+        
+        button:hover {
+            background-color: hsl(71, 59%, 47%);
+        }
+        
+        h1 {
+            color: hsl(179, 62%, 43%);
+        }
+        
+        h2 {
+            color: hsl(71, 73%, 54%);
+        }
+        
+        .main-desc {
+            margin-bottom: 0px;
+            color: hsl(218, 22%, 67%);
+        }
+        
+        .price-tag {
+            font-size: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="container main-container">
+            <h1>Join our community</h1>
+            <h2>30-day, hassle-free money back guarantee</h2>
+            <p class="main-desc">Gain access to our full library of tutorials along with expert code reviews.<br/> Perfect for any developers who are serious about honing their skills.</p>
+        </div>
+
+        <div class="flex-container">
+            <div class="container flex-item-left">
+                <h2 style=color:white;>Monthly Subscription</h2>
+                <p><span class="price-tag">&dollar;29</span> per month</p>
+                Full access for less than &dollar;1 a day
+                <button>Sign Up</button>
+            </div>
+
+            <div class="container flex-item-right">
+                <h2 style=color:white;>Why Us</h2>
+                <p>
+                    Tutorials by industry experts <br>Peer &amp; expert code review<br> Coding exercises
+                    <br> Access to our GitHub repos <br> Community forum <br> Flashcard decks <br> New videos every week
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Faiq Radzali</a>.
+        </p>
+    </footer>
+</body>
+
+</html>
