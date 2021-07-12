@@ -12,7 +12,7 @@ Users should be able to:
 
 ### The Result
 
-![](design/result.PNG)
+![](/design/result.PNG)
 
 - Solution URL: [https://faiqradzali.github.io/frontend-price-grid/](https://faiqradzali.github.io/frontend-price-grid/)
 
