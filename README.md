@@ -12,7 +12,8 @@ Users should be able to:
 
 ### The Result
 
-![](/design/result.PNG)
+![no-1](https://user-images.githubusercontent.com/47208532/125323255-2a92b780-e371-11eb-8857-efdba775d69e.png)
+
 
 - Solution URL: [https://faiqradzali.github.io/frontend-price-grid/](https://faiqradzali.github.io/frontend-price-grid/)
 
